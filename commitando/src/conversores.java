@@ -1,6 +1,9 @@
 public class conversores {
     public static void main(String[] args) {
         
+
+        //cuidado ao converter asd variaveis de um tipo para o outro pode ocorrer de vc perder os dados armazenados nelas 
+        
         byte b1;
         short s1 = 1000;
             //b1 = s1; - downcast ..resultado - 24, perda de informação 
