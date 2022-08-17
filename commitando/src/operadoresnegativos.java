@@ -3,6 +3,8 @@ public class operadoresnegativos {
         int numero = 5;
         int num = 5;
         int n1 = 5;
+        int n = 5;
+        boolean doador = !true;
 
         numero = - numero;
         numero = numero * -1;
@@ -13,5 +15,7 @@ public class operadoresnegativos {
             System.out.println(numero);
             System.out.println(num);
             System.out.println(n1);
+            System.out.println(n++);
+            System.out.println(doador);
     }
 }
