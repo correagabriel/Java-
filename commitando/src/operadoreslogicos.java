@@ -1,9 +1,9 @@
 public class operadoreslogicos {
     public static void main(String[] args) {
         int idade = 15;
-        boolean paiPresente = false;
+        boolean paiPresente = true;
 
-            if(idade < 18 && paiPresente == false){
+            if(idade < 18 && !paiPresente){ //paiPresente == false
                 System.out.println("Necessário a presença de um responsavel ");
             }
             else {
