@@ -17,7 +17,7 @@ public class contafinal {
 
         if(saldoinicial >= 0 ) {
             System.out.println("Saldo atual = " + saldoinicial);
-            System.out.println("Você pode retirar = " + saldoinicial);
+            System.out.println("Você pode retirar = " + saldofinal);
         }
         else {
             System.out.println(" Você não pode retirar esta quantia :/  ");
